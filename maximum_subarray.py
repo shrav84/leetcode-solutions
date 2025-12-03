@@ -5,7 +5,7 @@ class Solution:
         n = len(nums)
         curr_sum = 0
         max_sum = nums[0]
-
+          #implemented using Kadane's Algorithm
         for i in range(n): 
             curr_sum+= nums[i]
             if curr_sum>max_sum:
